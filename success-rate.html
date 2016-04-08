@@ -65,8 +65,8 @@
 								<li><a href="index.html" >Home</a></li>
 								<li><a href="free-assessment.html">Free Assessment</a></li>
 								<li><a href="services.html" >Services</a></li>
-								<li><a href="contact-us.html"  class="active">Contact Us</a></li>
-								<li><a href="success-rate.html">Success Rate</a></li>
+								<li><a href="contact-us.html" >Contact Us</a></li>
+								<li><a href="success-rate.html" >Success Rate</a></li>
 
 								<li class="dropdown"><a href="#">Account <i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
@@ -146,31 +146,31 @@
 				
 				<div class="col-sm-9 padding-right">
 					<div class=""><!--features_items-->
-						<h2 class="title text-center">Contact US</h2>
+						<h2 class="title text-center">Success Rate</h2>
 				
 						
 					</div><!--features_items-->
 					<div class="panel panel-default">
-	 				   <div class="panel-heading"><h2>Contact  <i style="color:#FE980F"><b>US</b></i></h2></div>
+	 				   <div class="panel-heading"><h2>Our   <i style="color:#FE980F"><b>SUCCESS RATE</b></i></h2></div>
 						<div class="panel-body">
-						<div class="left-text">
-							<h2><span class="fa fa-user"></span> Mr. Vic Querishi</h2>
-							<h3><span class="fa fa-thumb-tack"></span> Suite 126 10654 82 Ave, T6W 2A7</h3>
-							<h3><span class="fa fa-globe"></span>  Edmonton Alberta, Canada</h3>
-							<h3><span class="fa fa-phone"></span> 780-419-6666 | 780 660-0063 |  780-665-4409 |   587-800-1718 </h3>
-							<h3><span class="fa fa-envelope">  canadavisagroup@mail.com</span></h3>
+						<div id="gauge" class="col-xs-12 col-md-6 col-lg-6">
+							
 
-							<div>
-							</div>
 						</div>
-						<div class="text-right">
-							<hr>
-							<h2> Ms. Luisa Patagan  <span class="fa fa-user"></span></h2>
-							<h3>Murphy 16 Street New Kalalake  <span class="fa fa-thumb-tack"></span> </h3>
-							<h3> Olongapo City Philippines, 2200  <span class="fa fa-globe"></span> </h3>
-							<h3>+63 929-763-5149 | +63 920-429-0912  <span class="fa fa-phone"></span> </h3>
-							<h3>  canadavisagroup@mail.com  </span> <span class="fa fa-envelope"></h3>
+						<div class="col-xs-12 col-md-6 col-lg-6">
+								<h3>Our success rate for Canada Immigration Services is over <b class="yelw">95%</b></h3>.  <p>To avoid your application being delayed, returned or simply refused, we suggest you use our professional assistance.
+Please contact our office to schedule a personal consultation regarding your needs.
+								</p>
 						</div>
+						<div class="col-xs-12 col-md-12 col-lg-12">
+									<h1><var>Fast and Efficient Service</var></h1>
+										<p>We handle a large number of cases.  Our team work streamline the process as far as possible which means fewer delays in preparing and lodging of your application.</p>
+						</div>
+						<div class="col-xs-12 col-md-12 col-lg-12">
+									<h1><var>Installment Plans</var></h1>
+										<p>WOur professional fees are paid in two or three stages depending on the type of visa and on the stage of processing your application. Copy of Statement of Services or Fee Structure is provided prior to the commencement of the service.</p>
+						</div>
+			
 						</div>
 	 				 </div>		
 					  
@@ -233,50 +233,7 @@
 					
 					</div>
 				</div>
-
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
 				
-				<div class="col-sm-12 padding-right">
-					
-					<div class="panel panel-default">
-	 				   <div class="panel-heading"><h2>Mail <i style="color:#FE980F"><b>US</b></i></h2></div>
-						<div class="panel-body">
-						<h1>For quick response & your free consultation, please fill out the form below.</h1>
-						<form action="emailus.php" method="post">
-						<div class="col-sm-12 col-md-6 col-lg-6">
-						<div class="form-group">
-							<label for ="txtName">Name:</label>
-							<input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" required>
-						</div>
-						<div class="form-group">
-							<label for ="txtEmail">Email:</label>
-							<input type="email" class="form-control" name="txtEmail" id="txtEmail" placeholder="Email" required>
-						</div>		
-						<div class="form-group">
-							<label for ="txtPhone">Phone #:</label>
-							<input type="text" class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone Number" required>
-						</div>
-						</div>
-						<div class="col-sm-12 col-md-6 col-lg-6">
-									
-						<div class="form-group">
-							<label for ="txtDoS">Description of Service:</label>
-							<textarea type="text" class="form-control" rows ="5" name="txtDoS" id="txtDoS" required ></textarea>
-						</div>
-						<h1></h1>
-						<input type="submit" value="submit" class="btn-lg btn-warning" style="color:black;font-weight: bold;width: 100%">
-						</div>
-						</form>
-						
-						</div>
-	 				 </div>		
-					  
-				</div>
-			
-
 			</div>
 		</div>
 	</section>
@@ -366,5 +323,20 @@
 	<script src="js/price-range.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
+    <script src="plugins/justgage/justgage.js"></script>
+    <script src="plugins/justgage/raphael-2.1.4.min.js"></script>
+    <script>
+  var g = new JustGage({
+    id: "gauge",
+    value: 95,
+    min: 0,
+    max: 100,
+    title: "Success Rate",
+    label: "% Sucess Rate",
+     levelColorsGradient: true
+  });
+
+
+    </script>
 </body>
 </html>
